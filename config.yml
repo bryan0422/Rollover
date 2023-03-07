@@ -1,0 +1,17 @@
+SIS_STAGE:
+  environment: stage
+  URL: https://stage-sis.amco.me/
+  EMAIL: #This email you can found in the testmo/amco/Documentation 
+  PASSWORD: #This password you can found in the testmo/amco/Documentation
+  FILE: escuelas.csv #You could change the name of this file, but always that you changes something you need to check the index.py
+  SUB: 'stage-' 
+
+SIS_LIVE:
+  ENVIRONMENT: live
+  URL: https://sis.amco.me/
+  EMAIL: qa@amcoonline.net
+  PASSWORD: ABCAmco12345
+  FILE: escuelas.csv
+  SUB: ''
+
+  
